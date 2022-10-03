@@ -1,0 +1,51 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+		 background-color:grey;
+}
+.container{
+		 background-color:grey;
+		 width:1200px;
+		 margin:0 auto;
+		 
+}
+.box{
+	   width:217px;
+	   height:260px;
+	   background-color:white;
+	   text-align:center;
+	   border:5px solid white;
+	   border-radius:12px;
+	   margin:200px auto;	   
+}
+.content{
+         position:relative;
+}
+.content h2{
+	    position:absolute;
+		top:60px;
+		padding:5px 35px;
+		font-size:20px;
+		font-family: 'Lato', sans-serif;
+}
+.content p{
+	     position:absolute;
+		 top:135px;
+		 font-size:16px;
+		 color:grey;
+		 font-family: 'Source Sans Pro', sans-serif;
+}	
+.ico{
+	     position:relative;
+}
+.ico i{
+	  font-size:40px;
+	  position:absolute;
+	  top:10px;
+	  left:83px;
+	  color:blue;
+	  
+}
